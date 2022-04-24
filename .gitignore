@@ -30,3 +30,6 @@
 
 # broccoli-debug
 /DEBUG/
+
+# macos artifacles
+.DS_Store
