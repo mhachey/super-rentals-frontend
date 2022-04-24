@@ -29,7 +29,7 @@ module('Acceptance | super rentals', function (hooks) {
     assert.strictEqual(currentURL(), '/getting-in-touch');
   });
 
-  test('visiting /getting-in-touch', async function(assert) {
+  test('visiting /getting-in-touch', async function (assert) {
     await visit('/getting-in-touch');
 
     assert.strictEqual(currentURL(), '/getting-in-touch');
