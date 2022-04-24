@@ -47,7 +47,7 @@ module('Acceptance | super rentals', function (hooks) {
     assert.strictEqual(currentURL(), '/about');
   });
 
-  test('navigating using the nav-bar', async function(assert) {
+  test('navigating using the nav-bar', async function (assert) {
     await visit('/');
 
     assert.dom('nav').exists();
