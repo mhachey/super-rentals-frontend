@@ -5,7 +5,7 @@ const TWEET_INTENT = 'https://twitter.com/intent/tweet';
 
 export default class ShareButtonComponent extends Component {
   @service router;
-  
+
   get currentURL() {
     return new URL(this.router.currentURL, window.location.origin);
   }
